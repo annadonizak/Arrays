@@ -1,11 +1,11 @@
 n_sizes = [3, 5, 8]
 
 
-def identity_matrix(n):
-    matrix = [[0 for _ in range(n)] for _ in range(n)]
+def identity_matrix(n):   #gen macierz jednos
+    matrix = [[0 for _ in range(n)] for _ in range(n)] #nxn wart=0
 
     for i in range(n):
-        matrix[i][i] = 1
+        matrix[i][i] = 1  #ust 1 na przekatnej macierzy
     return matrix
 
 
